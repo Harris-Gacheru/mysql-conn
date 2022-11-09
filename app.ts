@@ -10,5 +10,5 @@ let con = mysql.createConnection({
 
 con.connect((err: any) => {
     if (err) throw err
-    console.log('connected')    
+    console.log('Connected succefully')    
 })
